@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Commissioner', sans-serif;
+}
+
+header {
+    background-image: url(images/image-hero-desktop.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+.nav a {
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 170px;
+}
+
+.nav--spans {
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 720px;
+}
+
+.nav--spans span {
+    margin-left: 60px;
+}
+
+.first h4 {
+    color: hsl(0, 0%, 48%);
+}
+
+.btn--bookmark {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn--bookmark img {
+    cursor: pointer;
+}
+
+.btn {
+    color: #fff;
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+
+.first {
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    margin-top: -80px;
+    border-radius: 10px;
+    width: 690px;
+    padding: 50px;
+    margin-left: 390px;
+    border: 1px solid #d4d3d3;
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 690px;
+    padding: 50px;
+    margin-left: 390px;
+    border: 1px solid #d4d3d3;
+}
+
+.second--first {
+    margin-right: 10px;
+}
+
+.second--second {
+    margin-right: 10px;
+}
+
+.about {
+    background-color: #fff;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 690px;
+    padding: 50px;
+    margin-left: 390px;
+    border: 1px solid #d4d3d3;
+}
+
+.about--txt {
+    line-height: 30px;
+}
+
+.about--first {
+    background-color: #fff;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 50px;
+    border: 1px solid #d4d3d3;
+}
+
+.about--bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about--bottom1 {
+    display: flex;
+}
+
+.about--second {
+    background-color: #fff;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 50px;
+    border: 1px solid #d4d3d3;
+}
+
+.about--third {
+    background-color: #fff;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 50px;
+    border: 1px solid #d4d3d3;
+}
+
+.btn--last {
+    color: #fff;
+    background-color: hsl(0, 0%, 75%);
+}
